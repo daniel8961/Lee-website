@@ -1,0 +1,61 @@
+.NavbarItems{
+    width: auto;
+    height: 200px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.nav-menu{
+    display: flex;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    margin-right: 100px;
+
+}
+li{
+    display: inline-block;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a span{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, white);
+}
+a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, white);
+}
+a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+li ::after{
+    color: aliceblue;
+    text-decoration: none;
+}
