@@ -1,3 +1,23 @@
-.block{
-    border: 1px solid black;
+.content{
+    margin: 5px 40px;
+    text-align: left;
+}
+#dan-selfie{
+    width: 30%;
+    height: auto;
+    margin: 5px 40px;
+    margin-left: 60px;
+    float: right;
+}
+h1{
+    font-family: "montserrat";
+}
+p{
+    line-height: 2.0;
+    font-family: "montserrat";
+    font-size: 18px;
+}
+.bio{
+    margin: 50px;
+    
 }
