@@ -1,12 +1,10 @@
-
+import Home from "../Features/Home/Home";
 
 function HomePage(){
     return(
-        <div>
-            <div>
-                <h1>Daniel's Paradise</h1>
-            </div>
-        </div>
+        <>
+            <Home />
+        </>
     );
 
 }
